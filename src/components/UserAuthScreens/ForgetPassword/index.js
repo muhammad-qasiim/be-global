@@ -1,6 +1,6 @@
 import ReactModal from "react-modal"
 import { useMediaQuery } from 'react-responsive'
-import Input from '../../Common/Input'
+import Input from '../../Common/Input' 
 
 const ForgetPassword = ({ isOpen, setIsOpen }) => {
   const ismd = useMediaQuery({ query: '(min-width: 768px)' })
