@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Layout from "./components/Layout";
 import Home from "./Pages/Home";
+import UserAuth from "./Pages/UserAuth";
 import Explore from "./Pages/Explore";
 import Create from "./Pages/Create";
 import CreateItem from "./Pages/CreateItem";
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="/user-authentication" element={<UserAuth />} />
           <Route path="explore" element={<Explore />} />
           <Route path="create" element={<Create />} />
           <Route path="create_item" element={<CreateItem />} />

@@ -25,7 +25,7 @@ const Navbar = () => {
                         beglobal</span> </Link>
 
                     <div className="flex xl:order-1">
-                        <div className="hidden relative mr-3 xl:mr-0 xl:block">
+                        <div className="hidden relative mr-3 xl:mr-0 xl:block md:w-424">
                             <Input type="text" placeholder="Search items, collections, and accounts" startAdorment={<BiSearch className='mt-2' />} />
                         </div>
                         <button type="button" className="inline-flex items-center p-2 ml-14 text-sm text-gray-500 rounded-xl xl:hidden  focus:outline-none focus:text-gray-800" aria-controls="mobile-menu-3" aria-expanded="false">

@@ -11,7 +11,7 @@
 }
 
 input[type="text"], textarea{
-  border-radius: 10px;
+  border-radius: 6px;
   border: 1px solid rgb(229, 232, 235);
 }
 
@@ -231,3 +231,47 @@ textarea:focus-visible{
   box-shadow: rgb(34 41 57 / 10%) 0px 2px 4px 0px;
 }
 /* swtich end */
+
+.auth-container{
+    background-color: #fff;
+    padding: 26px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 20px rgb(0 0 0 / 5%);
+    box-shadow: 0 0 20px rgb(0 0 0 / 5%);
+}
+
+.Divider__container{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+    line-height: .1em;
+}
+
+.Divider__container span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.SocialButton {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dadde0;
+  background-color: #fff;
+  padding: 11px 17px;
+  letter-spacing: .3px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 16px;
+}
+
+.ReactModal__Overlay{
+  z-index: 2000;
+  display: grid;
+  place-items: center;
+  background-color: rgb(27 27 27 / 75%) !important;
+}
