@@ -24,7 +24,7 @@ const Navbar = () => {
         <>
 
             <nav className="sticky h-71 top-0 bg-white shadow-xl" style={{ zIndex: '999' }}>
-                <div className="flex h-71 flex-wrap justify-between items-center mx-auto px-24 lg:px-99">
+                <div className="flex h-71 justify-between items-center mx-auto px-24 lg:px-99">
                     <Link to="/"> <span className="self-center text-xl font-semibold whitespace-nowrap flex items-center gap-2">
                         <img className="w-7" src="/assets/beglobal.svg" alt="" />
                         beglobal</span> </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
                         {
                             toggleSearch ? (
                                 <>
-                                    <div className="relative mr-3 xl:mr-0 xl:hidden flex items-center gap-2">
+                                    <div className="relative ml-18 mr-3 xl:mr-0 xl:hidden flex items-center gap-2">
                                         <MdKeyboardArrowLeft onClick={() => setToggleSearch(false)}  className='text-gray-500 text-24 cursor-pointer' />
                                         <Input type="text" placeholder="Search items, collections, and accounts" startAdorment={<BiSearch className='mt-2' />} />
                                     </div>
