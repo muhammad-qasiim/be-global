@@ -23,7 +23,7 @@ const ForgetPassword = ({ isOpen, setIsOpen }) => {
                         <div className="w-full">
                             <Input placeholder='Your Email' />
                         </div>
-                        <button className="bg-red-500 w-full md:w-auto text-white whitespace-nowrap px-32 py-10 rounded-5 transition-all hover:bg-red-600 relative top-0 hover:top-px" >Sign In</button>
+                        <button className="bg-red-500 w-full md:w-auto text-white whitespace-nowrap px-32 py-10 rounded-5 transition-all hover:bg-red-600 relative top-0 hover:top-px" >Send</button>
                     </div>
                 </main>
             </ReactModal>

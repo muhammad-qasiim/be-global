@@ -76,6 +76,12 @@ textarea:focus-visible{
   opacity: 1;
 }
 
+@media(max-width: 480px){
+  .sidebar-open{
+    width: 100%;
+  }
+}
+
 .sidebar-close{
     position: fixed;
     top: 70px;
@@ -274,4 +280,20 @@ textarea:focus-visible{
   display: grid;
   place-items: center;
   background-color: rgb(27 27 27 / 75%) !important;
+}
+
+.gGngoX {
+  height: 150px;
+  position: relative;
+  bottom: 40px;
+  width: 100%;
+  z-index: 120;
+  flex-shrink: 0;
+}
+
+.gGngoXline{
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(229, 232, 235);
+  border-top-style: solid;
+  border-top-width: 1px;
 }
